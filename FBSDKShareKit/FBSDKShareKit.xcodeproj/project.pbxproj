@@ -256,8 +256,6 @@
 		EAC370A31AAE3A9C000F0F04 /* FBSDKGameRequestContentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC370A21AAE3A9C000F0F04 /* FBSDKGameRequestContentTests.m */; };
 		F462DBF223B9526200FFCECA /* FBSDKCoreKit+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 890414751A647DB200617215 /* FBSDKCoreKit+Internal.h */; };
 		F462DBFC23B9526300FFCECA /* FBSDKCoreKit+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 890414751A647DB200617215 /* FBSDKCoreKit+Internal.h */; };
-		F46FA683245362880060C902 /* Enums+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FA682245362880060C902 /* Enums+Extensions.swift */; };
-		F46FA684245362880060C902 /* Enums+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FA682245362880060C902 /* Enums+Extensions.swift */; };
 		F4D7A84724520A6700A12EE5 /* FakeSharingDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D7A84624520A6700A12EE5 /* FakeSharingDelegate.m */; };
 		F4DC050F251947590073B380 /* FBSDKCoreKitInternalImport.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DC05072519457C0073B380 /* FBSDKCoreKitInternalImport.h */; };
 		F4DC05172519475A0073B380 /* FBSDKCoreKitInternalImport.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DC05072519457C0073B380 /* FBSDKCoreKitInternalImport.h */; };
@@ -537,7 +535,6 @@
 		EA3D469E1AA6835900D0C7D5 /* FBSDKAppInviteContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKAppInviteContent.m; sourceTree = "<group>"; };
 		EA6CCE931AA7855D00F1EC35 /* FBSDKAppInviteContentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKAppInviteContentTests.m; sourceTree = "<group>"; };
 		EAC370A21AAE3A9C000F0F04 /* FBSDKGameRequestContentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKGameRequestContentTests.m; sourceTree = "<group>"; };
-		F46FA682245362880060C902 /* Enums+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Enums+Extensions.swift"; sourceTree = "<group>"; };
 		F4D7A84524520A6700A12EE5 /* FakeSharingDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FakeSharingDelegate.h; sourceTree = "<group>"; };
 		F4D7A84624520A6700A12EE5 /* FakeSharingDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FakeSharingDelegate.m; sourceTree = "<group>"; };
 		F4DC05072519457C0073B380 /* FBSDKCoreKitInternalImport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKCoreKitInternalImport.h; sourceTree = "<group>"; };
@@ -839,7 +836,6 @@
 		9D46C5F21A11E5D800A0DDB6 /* FBSDKShareKit */ = {
 			isa = PBXGroup;
 			children = (
-				F46FA67824535E5E0060C902 /* Swift */,
 				F4ECC65F23EE2065005DBF05 /* FBSDKCoreKitImport.h */,
 				F4E7517323EA19000061BBFC /* FBSDKMessageDialog.h */,
 				F4E7517523EA19010061BBFC /* FBSDKMessageDialog.m */,
@@ -900,14 +896,6 @@
 				9D46C6011A11E5D800A0DDB6 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F46FA67824535E5E0060C902 /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				F46FA682245362880060C902 /* Enums+Extensions.swift */,
-			);
-			path = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1409,7 +1397,6 @@
 				81A07EE61D1A2E6A0041A29C /* FBSDKShareVideo.m in Sources */,
 				F4E7518423EA19010061BBFC /* FBSDKMessageDialog.m in Sources */,
 				81A07EE81D1A2E6A0041A29C /* FBSDKLikeObjectType.m in Sources */,
-				F46FA684245362880060C902 /* Enums+Extensions.swift in Sources */,
 				81A07EE91D1A2E6A0041A29C /* FBSDKShareLinkContent.m in Sources */,
 				B331E2192208C94800F3E4EE /* FBSDKShareExtension.m in Sources */,
 				81A07EEA1D1A2E6A0041A29C /* FBSDKSharePhotoContent.m in Sources */,
@@ -1466,7 +1453,6 @@
 				896DE2131A9E280900195731 /* FBSDKShareVideo.m in Sources */,
 				F4E7518323EA19010061BBFC /* FBSDKMessageDialog.m in Sources */,
 				89D05A711A9FE02400609300 /* FBSDKLikeObjectType.m in Sources */,
-				F46FA683245362880060C902 /* Enums+Extensions.swift in Sources */,
 				89CE02E61A3F56470033C9CA /* FBSDKShareLinkContent.m in Sources */,
 				B331E2182208C94800F3E4EE /* FBSDKShareExtension.m in Sources */,
 				89FC9C701A3FA1E00001910E /* FBSDKSharePhotoContent.m in Sources */,
@@ -1682,7 +1668,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CF1D261A7900B2E437 /* FBSDKShareKitTests.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 			};
 			name = Debug;
@@ -1691,7 +1676,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CF1D261A7900B2E437 /* FBSDKShareKitTests.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 			};
 			name = Release;
